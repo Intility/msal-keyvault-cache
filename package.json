@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/Intility/msal-keyvault-cache",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Intility/msal-keyvault-cache.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "keywords": [
     "msal",
     "msal-node",
