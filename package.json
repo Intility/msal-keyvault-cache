@@ -1,0 +1,22 @@
+{
+  "name": "@intility/msal-keyvault-cache",
+  "version": "0.1.0",
+  "description": "A cache for @azure/msal-node that uses Azure KeyVault as a store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "msal",
+    "msal-node",
+    "keyvault",
+    "azure",
+    "intility"
+  ],
+  "author": "Intility AS",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "^2.0.4",
+    "@azure/keyvault-secrets": "^4.3.0"
+  }
+}
