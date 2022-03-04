@@ -1,6 +1,6 @@
 {
   "name": "@intility/msal-keyvault-cache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A cache for @azure/msal-node that uses Azure KeyVault as a store.",
   "main": "index.js",
   "scripts": {
