@@ -1,5 +1,5 @@
-import { DefaultAzureCredential } from '@azure/identity'
-import { SecretClient } from '@azure/keyvault-secrets'
+const { DefaultAzureCredential } = require('@azure/identity')
+const { SecretClient } = require('@azure/keyvault-secrets')
 
 /**
  * Cache Plugin configuration
@@ -8,7 +8,7 @@ import { SecretClient } from '@azure/keyvault-secrets'
 const noSecretValueError = 'No Secret Value'
 const secretNotFound = 'SecretNotFound'
 
-export default function msalCache(
+module.exports = function msalCache(
   keyVaultUrl,
   secretName = 'msal-cache',
   credential = new DefaultAzureCredential()
