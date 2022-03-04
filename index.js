@@ -8,7 +8,7 @@ const { SecretClient } = require('@azure/keyvault-secrets')
 const noSecretValueError = 'No Secret Value'
 const secretNotFound = 'SecretNotFound'
 
-module.exports = function msalCache(
+module.exports = function keyVaultCache(
   keyVaultUrl,
   secretName = 'msal-cache',
   credential = new DefaultAzureCredential()
