@@ -50,7 +50,9 @@ By default, it will authenticate to the KeyVault by using [`DefaultAzureCredenti
 ### Syntax
 
 ```js
-let cachePlugin = keyVaultCache(keyVaultUrl [, secretName, credential])
+let cachePlugin = keyVaultCache(keyVaultUrl);
+let cachePlugin = keyVaultCache(keyVaultUrl, secretName);
+let cachePlugin = keyVaultCache(keyVaultUrl, secretName, credential);
 ```
 
 ### Parameters
@@ -61,7 +63,7 @@ A JavaScript string containing the url to your Azure KeyVault.
 
 #### `secretName` (optional)
 
-- Default Value: `'msal-cache'`
+- Default Value: `"msal-cache"`
 
 A JavaScript string containing the name of the secret.
 
