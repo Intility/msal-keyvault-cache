@@ -28,7 +28,7 @@
   "author": "Intility AS",
   "license": "MIT",
   "peerDependencies": {
-    "@azure/msal-node": "^1.7.0"
+    "@azure/msal-node": "^1.0.0"
   },
   "dependencies": {
     "@azure/identity": "^2.0.4",
