@@ -2,9 +2,11 @@
   "name": "@intility/msal-keyvault-cache",
   "version": "0.1.3",
   "description": "A cache for @azure/msal-node that uses Azure KeyVault as a store.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "commonjs",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/Intility/msal-keyvault-cache",
@@ -25,8 +27,15 @@
   ],
   "author": "Intility AS",
   "license": "MIT",
+  "peerDependencies": {
+    "@azure/msal-node": "^1.7.0"
+  },
   "dependencies": {
     "@azure/identity": "^2.0.4",
     "@azure/keyvault-secrets": "^4.3.0"
+  },
+  "devDependencies": {
+    "@azure/msal-node": "^1.7.0",
+    "typescript": "^4.6.2"
   }
 }
