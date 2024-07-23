@@ -31,7 +31,7 @@
     "@azure/msal-node": "^1.0.0"
   },
   "dependencies": {
-    "@azure/identity": "^2.0.4",
+    "@azure/identity": "^4.4.0",
     "@azure/keyvault-secrets": "^4.3.0"
   },
   "devDependencies": {
